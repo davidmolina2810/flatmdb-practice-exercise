@@ -3,12 +3,12 @@ require_relative 'lib/actor'
 require_relative 'lib/movie'
 require_relative 'lib/role'
 
-a1 = Actor.new(name: "Ali Stone", rank: "C", age: 21)
-a2 = Actor.new(name: "Alpa Chino", rank: "A", age: 83)
-a3 = Actor.new(name: "Javier Bardem", rank: "A", age: 60)
-a4 = Actor.new(name: "Issa Rae", rank: "A", age: 33)
-a5 = Actor.new(name: "Timmy Wiseau", rank: "D", age: 13)
-a6 = Actor.new(name: "Ian H", rank: "E", age: 33)
+a1 = Actor.new("Ali Stone", "C", 21)
+a2 = Actor.new("Alpa Chino", "A", 83)
+a3 = Actor.new("Javier Bardem", "A", 60)
+a4 = Actor.new("Issa Rae", "A", 33)
+a5 = Actor.new("Timmy Wiseau", "D", 13)
+a6 = Actor.new("Ian H", "E", 33)
 
 m1 = Movie.new(title: "An Affair to Forget", year: 2017, box_office: 70_000_000)
 m2 = Movie.new(title: "The Room 2", year: 2014, box_office: 7)
